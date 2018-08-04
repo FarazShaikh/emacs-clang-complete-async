@@ -71,3 +71,8 @@ retrieve completion candidates instead of calling clang process, which is way
 slower, and the asynchonous nature of our C-S based working model won't block
 the editor while parsing source code and resolving completion candidates,
 which provides a "smooth" coding experience.
+
+* Installation Prereq
+sudo apt-get install llvm-config
+sudo apt-get install libclang-dev
+sudo apt-get install clang
